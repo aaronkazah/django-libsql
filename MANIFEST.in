@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include libsql/db/backends/libsql *.py
+global-exclude *.pyc
+global-exclude asgi.py settings.py urls.py wsgi.py
