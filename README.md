@@ -47,8 +47,8 @@ You can also clone this repository and run the example Django app:
 ```
 git clone https://github.com/aaronkazah/django-libsql.git
 cd django-libsql
-python manage.py migrate
 ./scripts/docker.sh
+python manage.py migrate
 python manage.py runserver
 ```
 
