@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="django-libsql",
-    version="0.1.2",  # Increment the version number
+    version="0.1.3",  # Increment the version number
     author="Aaron Kazah",
     description="A Django integration for libSQL / turso database",
     long_description=long_description,
