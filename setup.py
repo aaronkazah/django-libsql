@@ -11,9 +11,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/aaronkazah/django-libsql",
-    packages=['libsql.db.backends.libsql'],
+    packages=['libsql.db.backends.sqlite3'],
     package_data={
-        'libsql.db.backends.libsql': ['*.py'],
+        'libsql.db.backends.sqlite3': ['*.py'],
     },
     classifiers=[
         "Development Status :: 3 - Alpha",
