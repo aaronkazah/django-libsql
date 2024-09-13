@@ -100,6 +100,7 @@ For a complete list of unsupported functions, query the `pragma_function_list` t
 
 These operations will raise `django.db.utils.OperationalError` due to missing functions.
 
+Expect the issues above to be solved soon, already have a local solution working, but will ship new changes once i find the time.
 ## License
 
 This project is distributed under the MIT license.
