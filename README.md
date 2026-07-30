@@ -19,7 +19,7 @@ To use Libsql as your database backend, update your Django settings as follows:
 DATABASES = {
     "default": {
         "ENGINE": "libsql.db.backends.sqlite3",
-        "NAME": "libsql://${your-db-name}.turso.io?authToken=${your-auth-token}",
+        "NAME": "https://${your-db-name}.turso.io?authToken=${your-auth-token}",
     }
 }
 ```
