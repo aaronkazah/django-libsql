@@ -117,7 +117,7 @@ DATABASES = {
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "libsql.db.backends.sqlite3",
-#         "NAME": "libsql://${your-db-name}.turso.io?authToken=${your-auth-token}",
+#         "NAME": "https://${your-db-name}.turso.io?authToken=${your-auth-token}",
 #     }
 # }
 
